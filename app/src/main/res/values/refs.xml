@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="white_border" />
+    <drawable name="ic_magnify" />
+    <drawable name="ic_gps" />
+    <drawable name="ic_map" />
+    <drawable name="ic_info" />
+</resources>

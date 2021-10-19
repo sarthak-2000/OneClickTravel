@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AccountFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroud_app">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/lnr_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/margin_35dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/user_pic"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/default_dp"
+                        android:contentDescription="@string/t" />
+
+                    <com.example.oneclicktravel.mtplview.MtplTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/head_upload_pic"
+                        android:textSize="@dimen/font_14dp"
+                        android:textColor="@color/grey"
+                        android:layout_marginTop="@dimen/margin_10dp"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnr_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:layout_marginLeft="@dimen/margin_30dp"
+                    android:layout_marginRight="@dimen/margin_30dp"
+                    android:layout_marginBottom="@dimen/margin_20dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.example.oneclicktravel.mtplview.MtplEditText
+                            android:layout_width="0dp"
+                            android:id="@+id/edt_fname"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/signup_input"
+                            android:hint="@string/first_name"
+                            android:layout_weight="1"
+                            android:singleLine="true"
+                            android:imeOptions="actionNext"
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:ellipsize="end"
+                            android:padding="@dimen/margin_13dp"/>
+
+                        <com.example.oneclicktravel.mtplview.MtplEditText
+                            android:layout_width="0dp"
+                            android:id="@+id/edt_lname"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/signup_input"
+                            android:hint="@string/hint_lname"
+                            android:layout_weight="1"
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:singleLine="true"
+                            android:imeOptions="actionNext"
+                            android:ellipsize="end"
+                            android:layout_marginStart="@dimen/margin_5dp"
+                            android:padding="@dimen/margin_13dp"/>
+
+                    </LinearLayout>
+
+                    <com.example.oneclicktravel.mtplview.MtplEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/signup_input"
+                        android:hint="@string/hint_email"
+                        android:id="@+id/edt_email"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:padding="@dimen/margin_13dp"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:layout_marginTop="@dimen/margin_15dp"/>
+
+                    <com.example.oneclicktravel.mtplview.MtplEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/signup_input"
+                        android:hint="@string/hint_pswd"
+                        android:id="@+id/edt_password"
+                        android:padding="@dimen/margin_13dp"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:inputType="textPassword"
+                        android:layout_marginTop="@dimen/margin_15dp"/>
+
+                </LinearLayout>
+                <com.example.oneclicktravel.mtplview.MtplButton
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn_update"
+                    android:layout_height="wrap_content"
+                    android:text="@string/update"
+                    android:padding="@dimen/margin_13dp"
+                    android:layout_marginRight="@dimen/margin_30dp"
+                    android:layout_marginLeft="@dimen/margin_30dp"
+                    android:background="@drawable/signup_rounded"
+                    android:textColor="@color/txt_white"
+                    android:textSize="@dimen/font_16dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

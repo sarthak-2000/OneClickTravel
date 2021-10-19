@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="snippet" type="id"/>
+    <item name="option_get_place" type="id" />
+    <item name="sp_type" type="id" />
+    <item name="bt_find" type="id" />
+    <item name="google_map" type="id" />
+    <item name="button" type="id" />
+    <item name="B_restaurant" type="id" />
+    <item name="currentLocationImageButton" type="id" />
+</resources>

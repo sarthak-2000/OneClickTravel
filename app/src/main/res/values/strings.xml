@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">One Click Travel</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--signup-->
+    <string name="signup_fb">Sign up with Facebook</string>
+    <string name="signup_email">Sign up with Email</string>
+    <string name="alredy_signin">Already a member? <u>Sign in</u></string>
+    <string name="new_zepper">New to Zepper? <u>Sign up</u></string>
+
+    <!--Signup-->
+    <string name="head_upload_pic">Upload profile picture</string>
+    <string name="hint_fnmae">Name</string>
+    <string name="hint_lname">Last name</string>
+    <string name="title_activity_view_navigation_drawer">ViewNavigationDrawer</string>
+
+    <string name="label_btn_find">Find</string>
+
+
+    <!--Sign in-->
+    <string name="hint_email">Email</string>
+    <string name="hint_pswd">Password</string>
+    <string name="head_signin">Sign in</string>
+    <string name="head_forgot_pswd">Forgot password?</string>
+
+    <!--Toolbar-->
+    <string name="head_signup">Sign up</string>
+
+    <string name="str_btn_find">Find</string>
+    <string-array name="place_type">
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>church</item>
+        <item>doctor</item>
+        <item>hospital</item>
+        <item>mosque</item>
+        <item>movie_theater</item>
+        <item>hindu_temple</item>
+        <item>restaurant</item>
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Bus Station</item>
+        <item>Church</item>
+        <item>Doctor</item>
+        <item>Hospital</item>
+        <item>Mosque</item>
+        <item>Movie Theater</item>
+        <item>Hindu Temple</item>
+        <item>Restaurant</item>
+    </string-array>
+
+    <string name="about_us">One Click Travel is an Android App developed especially for helping people who just love to travel. </string>
+
+    <string name="runtime_permissions_txt">Please enable ALL permissions from app settings.</string>
+
+
+    <!--Weather Strings-->
+    <string name="change_city">Change city</string>
+
+    <!-- Put your own APP ID here -->
+    <string name="open_weather_maps_app_id">f03d691399fdacf7eff7e90ff3aac071</string>
+
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+
+    <string name="place_not_found">Sorry, no weather data found.</string>
+    <string name="re_enter_your_password">Re-enter your password</string>
+    <string name="send_message_to">Send Message To</string>
+    <string name="enter_contact_number">Enter Contact Number</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="already_a_user_login_in">Already a User? Login In!</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="enter_yur_email">Enter your email</string>
+    <string name="passwrd">Password</string>
+    <string name="enter_yur_password">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="new_user_click_here">New User? Click Here</string>
+    <string name="to_do">TODO</string>
+    <string name="e_email">Email</string>
+    <string name="travel_buddy">Travel Buddy</string>
+    <string name="you_can_track_your_mobile">You can Track Your Mobile</string>
+    <string name="click_here_to_view_your_device_location">Click here to view your device location</string>
+    <string name="weather">Weather</string>
+    <string name="todo">TODO</string>
+    <string name="_1059">1059</string>
+    <string name="emergency_information_services">Information Services</string>
+    <string name="_107">107</string>
+    <string name="_102">102</string>
+    <string name="emergency_disaster_management">Disaster Management</string>
+    <string name="_108">108</string>
+    <string name="women_in_danger">Women in Danger</string>
+    <string name="_181">181</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="_101">101</string>
+    <string name="_100">100</string>
+    <string name="police">Police</string>
+    <string name="fire">Fire</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="specialized_hospitals">Specialized Hospitals</string>
+    <string name="default_info_title" />
+    <string name="default_info_snippet" />
+    <string name="pick_place" />
+    <string name="map">Map</string>
+    <string name="enter_address_city_or_zip_code">Enter Address, City or Zip Code</string>
+    <string name="current_location">Current Location</string>
+    <string name="_0_c">0*C</string>
+    <string name="dash">---------</string>
+    <string name="fetching">Fetching___</string>
+    <string name="want_to_search_for_new_city">Want To Search For New City</string>
+    <string name="enter_city_name">Enter City Name</string>
+    <string name="t">TODO</string>
+    <string name="market">Market</string>
+    <string name="school">School</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="hospital">Hospital</string>
+    <string name="one_click_travel">One Click Travel</string>
+    <string name="one_click_travel1">One Click Travel</string>
+    <string name="one_click_travel3">One Click Travel</string>
+    <string name="one_click_travel4">One Click Travel</string>
+    <string name="privacy_policy">One Click Travel will not collect any personal data. GPS needs to be on to find the current position of the user but we do not store any GPS-related data. Your search history will not be stored either.</string>
+    <string name="first_name">First Name</string>
+    <string name="update">Update</string>
+</resources>

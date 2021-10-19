@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary1">#582E90</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="primary">#E43F3F</color>
+
+    <color name="txt_white">#FFFFFF</color>
+    <color name="fb">#3B5999</color>
+    <color name="txt_email_purple">#310457</color>
+    <color name="grey">#575C77</color>
+    <color name="btn_purple">#582E90</color>
+    <color name="txt_black">#000000</color>
+
+    <color name="backgroud_app">#F7FAFE</color>
+    <color name="black">#000000</color>
+</resources>

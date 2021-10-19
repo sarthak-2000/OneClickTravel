@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.EmergencyContactFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/backgroud_app"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.example.oneclicktravel.mtplview.MtplTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="@string/emergency_contacts"
+                    android:background="@drawable/signup_input"
+                    android:textSize="@dimen/font_24dp"
+                    android:gravity="center"
+                    android:textColor="#ff0000"/>
+
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view"
+                    android:layout_marginTop="@dimen/font_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:cardCornerRadius="8dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:weightSum="2"
+                        android:id="@+id/lnr_police"
+                        android:gravity="center_vertical"
+                        android:elevation="@dimen/font_5dp"
+                        android:background="@drawable/signup_input"
+                        android:orientation="horizontal"
+                        tools:targetApi="lollipop">
+
+                        <com.example.oneclicktravel.mtplview.MtplTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/police"
+                            android:gravity="center"
+                            android:textSize="@dimen/font_20dp"/>
+
+                        <com.example.oneclicktravel.mtplview.MtplTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/_100"
+                            android:gravity="center"
+                            android:textSize="@dimen/font_20dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view2"
+                    android:layout_marginTop="@dimen/font_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:cardCornerRadius="8dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:weightSum="2"
+                        android:id="@+id/lnr_fire"
+                        android:gravity="center_vertical"
+                        android:elevation="@dimen/font_5dp"
+                        android:background="@drawable/signup_input"
+                        android:orientation="horizontal"
+                        tools:targetApi="lollipop">
+
+                        <com.example.oneclicktravel.mtplview.MtplTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/fire"
+                            android:gravity="center"
+                            android:textSize="@dimen/font_20dp"/>
+
+
+                        <com.example.oneclicktravel.mtplview.MtplTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/_101"
+                            android:gravity="center"
+                            android:textSize="@dimen/font_20dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view3"
+                    android:layout_marginTop="@dimen/font_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:cardCornerRadius="8dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:weightSum="2"
+                        android:id="@+id/lnr_ambulance"
+                        android:gravity="center_vertical"
+                        android:elevation="@dimen/font_5dp"
+                        android:background="@drawable/signup_input"
+                        android:orientation="horizontal"
+                        tools:targetApi="lollipop">
+
+                        <com.example.oneclicktravel.mtplview.MtplTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/ambulance"
+                            android:gravity="center"
+                            android:textSize="@dimen/font_20dp"/>
+
+
+                        <com.example.oneclicktravel.mtplview.MtplTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/_102"
+                            android:gravity="center"
+                            android:textSize="@dimen/font_20dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view4"
+                    android:layout_marginTop="@dimen/font_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:cardCornerRadius="8dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:weightSum="2"
+                        android:id="@+id/lnr_disaster"
+                        android:gravity="center_vertical"
+                        android:elevation="@dimen/font_5dp"
+                        android:background="@drawable/signup_input"
+                        android:orientation="horizontal"
+                        tools:targetApi="lollipop">
+
+                        <com.example.oneclicktravel.mtplview.MtplTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/emergency_disaster_management"
+                            android:gravity="center"
+                            android:textSize="@dimen/font_20dp"/>
+
+
+                        <com.example.oneclicktravel.mtplview.MtplTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/_108"
+                            android:gravity="center"
+                            android:textSize="@dimen/font_20dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view5"
+                    android:layout_marginTop="@dimen/font_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:cardCornerRadius="8dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:weightSum="2"
+                        android:gravity="center_vertical"
+                        android:elevation="@dimen/font_5dp"
+                        android:id="@+id/lnr_womenDanger"
+                        android:background="@drawable/signup_input"
+                        android:orientation="horizontal"
+                        tools:targetApi="lollipop">
+
+                        <com.example.oneclicktravel.mtplview.MtplTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/women_in_danger"
+                            android:gravity="center"
+                            android:textSize="@dimen/font_20dp"/>
+
+
+                        <com.example.oneclicktravel.mtplview.MtplTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/_181"
+                            android:gravity="center"
+                            android:textSize="@dimen/font_20dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view6"
+                    android:layout_marginTop="@dimen/font_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:cardCornerRadius="8dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:weightSum="2"
+                        android:id="@+id/lnr_hospitals"
+                        android:gravity="center_vertical"
+                        android:elevation="@dimen/font_5dp"
+                        android:background="@drawable/signup_input"
+                        android:orientation="horizontal"
+                        tools:targetApi="lollipop">
+
+                        <com.example.oneclicktravel.mtplview.MtplTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/specialized_hospitals"
+                            android:gravity="center"
+                            android:textSize="@dimen/font_20dp"/>
+
+
+                        <com.example.oneclicktravel.mtplview.MtplTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/_1059"
+                            android:gravity="center"
+                            android:textSize="@dimen/font_20dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view7"
+                    android:layout_marginTop="@dimen/font_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:cardCornerRadius="8dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:weightSum="2"
+                        android:gravity="center_vertical"
+                        android:elevation="@dimen/font_5dp"
+                        android:id="@+id/lnr_information"
+                        android:background="@drawable/signup_input"
+                        android:orientation="horizontal"
+                        tools:targetApi="lollipop">
+
+                        <com.example.oneclicktravel.mtplview.MtplTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/emergency_information_services"
+                            android:gravity="center"
+                            android:textSize="@dimen/font_20dp"/>
+
+
+                        <com.example.oneclicktravel.mtplview.MtplTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/_107"
+                            android:gravity="center"
+                            android:textSize="@dimen/font_20dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

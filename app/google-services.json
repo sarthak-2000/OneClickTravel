@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "63325773323",
+    "project_id": "travel-16d6e",
+    "storage_bucket": "travel-16d6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63325773323:android:046788fda595e2dcf7310e",
+        "android_client_info": {
+          "package_name": "com.buha.demotravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63325773323-kupa1mh3utrtqaj7s37bfprlmdausvfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA2efNdzdVCt4LVs6TUVs5UeEzpwBCnUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63325773323-kupa1mh3utrtqaj7s37bfprlmdausvfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
